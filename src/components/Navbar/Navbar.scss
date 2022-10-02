@@ -1,0 +1,99 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display:flex;
+  flex-direction: column;
+  width: 60px;
+  height: 100vh;
+
+  .logo {
+    width: 60px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: red;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+
+
+    .openNav {
+      width: 20px;
+      height: 30px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 60px;
+      top: 65px;
+      background: #222222;
+      border-radius: 0 8px 8px 0;
+
+      svg {
+        color: white;
+        font-size: 30px;
+      }
+    }
+
+    .menu1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background: rgba(34,34,34,255);
+
+
+
+      span {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vh;
+        svg {
+          font-size: 16px;
+          color: white;
+        }
+      }
+
+
+    }
+
+    .menu2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: calc(100vh - 48vh);
+      background: #171717;
+
+      span {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 43px;
+        border-top: 1px solid rgba(34,34,34,255);
+
+        svg {
+          color: #878787;
+        }
+
+        &:last-child {
+          border-bottom: 1px solid rgba(34,34,34,255);
+        }
+      }
+
+    }
+
+  }
+}

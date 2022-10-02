@@ -1,0 +1,102 @@
+.Header {
+  width: calc(100% - 60px);
+  height: 60px;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+
+  .icon {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e3e3e3;
+    color: black;
+
+    span {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+    }
+
+  }
+
+  .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    height: 100%;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+
+    h3 {
+      margin-left: 5px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+
+  }
+
+  .information {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+
+    .information_image {
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+      border-radius: 50px;
+      background-image: url("http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .information_text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-left: 20px;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 300px;
+      }
+
+      .information_text_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+
+        svg {
+          font-size: 25px;
+        }
+      }
+
+    }
+  }
+
+}

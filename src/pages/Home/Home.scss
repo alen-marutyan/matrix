@@ -1,0 +1,414 @@
+.Home {
+  width: calc(100% - 60px);
+  margin-left: 60px;
+
+  .select1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 41px;
+    border-bottom: 2px solid #dedede;
+
+    .dashboard {
+      display: flex;
+      align-items: center;
+      width: 70%;
+      height: 100%;
+      background: #ececec;
+      color: #767676;
+
+      // change next add right arrow;
+      h3 {
+        margin-left: 30px;
+      }
+
+    }
+
+    .addThisPageToFavorites {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      color: #838383;
+      background: #d8d8d8;
+      height: 100%;
+
+      svg {
+        margin-left: 15px;
+      }
+
+      h3 {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .select2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    .container {
+      width: calc(100% / 4);
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      border-right: 1px solid #ececec;
+
+      h2 {
+        font-weight: 900;
+        font-size: 50px;
+        font-family: Arial, sans-serif;
+      }
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+          font-weight: normal;
+          margin-left: 5px;
+          color: #747476;
+        }
+      }
+
+      &:last-child{
+        border:  none;
+      }
+
+      &.one {
+        color: #06abae;
+      }
+
+      &.two {
+        color: #2475b2;
+      }
+
+      &.three {
+        color: #fccb80;
+      }
+
+      &.four {
+        color: #05a9ab;
+      }
+
+    }
+  }
+
+  .select3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+    .Vectors {
+      width: 50%;
+      height: 300px;
+      background: #2a2a2a;
+
+      .maps_head{
+        width: 100%;
+        height: 45px;
+        color: #d8d8d8;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-size: 22px;
+            font-weight: normal;
+          }
+
+          h3 {
+            font-weight: normal;
+            font-size: 18px;
+          }
+
+          svg {
+            margin-left: 10px;
+          }
+        }
+
+      }
+
+      .line_footer {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px 10px;
+          color: white;
+
+          .color_one, .color_two, .color_three {
+            width: 20px;
+            height: 20px;
+          }
+
+          .color_one {
+            background: #f0cd81;
+          }
+
+          .color_two {
+            background: #1d7abe;
+          }
+
+          .color_three {
+            background: #1dbb99;
+          }
+
+        }
+      }
+
+    }
+
+    .PieChart {
+      width: 20%;
+      border-top: 1px solid black;
+      background: #222222;
+
+      .pie_header {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        font-size: 20px;
+        color: #dddddd;
+      }
+
+      .pie_footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .pie_footer_name {
+          display: flex;
+          justify-content: left;
+          margin-left: 60px;
+        }
+
+        span {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: #dddddd;
+
+          .round {
+            width: 30px;
+            height: 22.5px;
+            border-radius: 50px;
+            margin-left: 10px;
+
+            span {
+              width: 15.5px;
+              height: 15.5px;
+              background: #222320;
+              border-radius: 50px;
+            }
+          }
+
+          .round.one {
+            background: #ccc18d;
+          }
+
+          .round.two {
+            background: #022841;
+          }
+
+          .round.three {
+            background: #34938d;
+          }
+
+          .pie_footer_info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 87.1%;
+          }
+
+          p {
+            display: flex;
+            justify-content: left;
+            width: 100px;
+            margin-left: 20px;
+          }
+
+        }
+      }
+
+    }
+
+    .Maps {
+      width: 30%;
+      background: #2a2a2a;
+      height: 100%;
+
+      .maps_head{
+        width: 100%;
+        height: 45px;
+        color: #d8d8d8;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h2 {
+            font-size: 22px;
+            font-weight: normal;
+          }
+
+          h3 {
+            font-weight: normal;
+            font-size: 18px;
+          }
+
+          svg {
+            margin-left: 10px;
+          }
+        }
+
+      }
+
+      .maps_main {
+        width: 100%;
+        height: 115px;
+        display: flex;
+
+        .square {
+          width: 60px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          span {
+            width: 20px;
+            height: 20px;
+            background: #868485;
+            margin-top: 10px;
+          }
+        }
+
+      }
+
+      .maps_footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: #d1d1d1;
+
+        .maps_footer_name {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          height: 40px;
+          padding: 0;
+
+          svg {
+            margin: 0 15px;
+          }
+        }
+
+        span {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 35px;
+          padding: 0 20px;
+          border-top: #2b2b2b 2px solid;
+        }
+      }
+
+    }
+
+  }
+
+  .select4 {
+    width: 100%;
+    display: flex;
+
+    .container {
+      width: calc(100% / 3);
+      border-right: 1px solid #e1e1e1;
+
+      .three_name {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        background: #353535;
+        color: white;
+
+        h2 {
+          margin-left: 20px;
+          font-weight: normal;
+        }
+
+      }
+
+      .three_header {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        border-bottom: 2px solid #e1e1e1;
+
+        h3 {
+          width: calc(100% / 5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 15px;
+          margin: 5px;
+          color: #8f8f8f;
+        }
+      }
+
+      .three_item {
+        span {
+          width: 100%;
+          height: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid #efefef;
+
+          p {
+            text-align: center;
+            width: calc(100% / 5);
+            font-size: 20px;
+          }
+        }
+      }
+
+      &:last-child{
+        border: none;
+      }
+    }
+
+
+  }
+
+
+}
